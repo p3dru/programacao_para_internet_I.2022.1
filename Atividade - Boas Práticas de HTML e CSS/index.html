@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nome="Código para boas práticas" content="Código feito para a descrição de pesquisa no google">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Título da aba</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho_img" src="" alt="Não encontrei uma foto decente pra colocar aqui">
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo_principal">
+            <div class="conteudo_principal_escrito">
+                <h1 class="conteudo_principal_escrito_titulo_principal">Título maior para o main, o corpo principal do texto</h1>
+                <h2 class="conteudo_principal_escrito_titulo_secundario">Aqui temos um subtítulo</h2>
+                Uma section pode ter várias divs
+                <br>Perceba que este trecho está desalinhado... é porquê não há uma class específica para esse elemento. É apenas um texto avulso.
+                <br>Sem estilização específica, e por isso segue o padrão de conteúdo, uma vez que a class="conteudo_principal_escrito" não foi alterada 
+            </div>
+
+            <div class="conteudo_secundario">
+                <h2 class="conteudo_secundario_titulo_secundario">Aqui por exemplo</h2>
+                Já é uma segunda div, dentro de uma mesma section
+                <p class="conteudo_secundario_paragrafo">
+                    Esse parágrafo está aqui apenas para deixar clara a diferença entre deixar um texto livre
+                    (sem tag) e outro com tag de parágrafo (p).<br>
+                    O texto livre, obedece a estilização da class div na qual ele está inserido (class="conteudo_secundario", nesse caso).<br>
+                    Já esse paragrafo, obedece à class="conteudo_secundario_paragrafo", e se nada for adicionado nessa estilização em si, ela segue obedecendo à sua classe superior (class="conteudo_secundario")
+                </p>
+            </div>
+
+            <div class="conteudo_secundario">
+                <h2 class="conteudo_secundario_titulo_secundario">Outro exemplo</h2>
+                Aqui estamos usando a mesma estilização da div anterior apenas copiando a sua <i>class</i>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape_div">
+            <h2 class="rodape_div_titulo_secundario">Título do rodapé</h2>
+        </div>
+        Caso deseje inserir alguma coisa fique à vontade
+
+        <div>
+            Lista de links usados na resolução dessa atividade:
+            <a href="https://www.w3bai.com/pt/html/html_blocks.html"><br>Blocos em HTML</a>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML"><br>Documentação HTML pela Mozzila</a>
+            <a href="https://www.danielimamura.com.br/otimizacao-de-ancoras-html/"><br>Âncoras em HTML</a>
+            <a href="https://medium.com/academymeteor/boas-pr%C3%A1ticas-para-programa%C3%A7%C3%A3o-web-html-e-css-c2a62f1b9560"><br>Boas práticas em HTML e CSS</A>
+            <a href="https://pt.stackoverflow.com/questions/32936/reduzir-o-tamanho-de-uma-imagem-e-manter-a-propor%C3%A7%C3%A3o-com-css"><br>Redefinindo imagens</a>
+            <!--<a>Ancora</a>
+            <a>Percebe-se que nesse ponto do código já podemos ver a identação como forma de organização</a>
+            -->
+        </div>
+    </footer>
+</body>
+</html>
