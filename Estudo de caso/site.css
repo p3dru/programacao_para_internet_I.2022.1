@@ -1,0 +1,51 @@
+@import
+url('http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600');
+
+@import
+url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+
+.titulo_principal{
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 25, 68);
+    font-size: 120%;
+    text-align: center;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.corpo{
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    text-align: justify;
+    font-family: "Times New Roman", serif;
+}
+
+.titulo_secundario{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.sections_na_esquerda{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    justify-content: space-around;
+    padding: 24px;
+    gap: 32px;
+}
+
+.imagem{
+    height: 300px;
+}
+
+.blockquote{
+    background-color: #d9e5e3;
+}
+
+.aside{
+    color:  #F2FFFC; 
+    background-color: #3c1d3d;
+}
+
+.a{
+    color:  #F2FFFC;
+}
